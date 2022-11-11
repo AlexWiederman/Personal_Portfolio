@@ -1,0 +1,100 @@
+* {
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(2, 116, 106);
+    width: 100%;
+    border-bottom: solid 10px;
+    border-color: rgb(255, 210, 126);
+    line-height: 40px;
+margin: 0;
+position: fixed;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+
+li {
+    display: inline;
+  
+    text-decoration: none;
+    margin: 0;
+    
+   
+}
+
+.text-right {
+    text-align: right;
+    margin: 0;
+}
+
+.text-centered {
+    text-align:center;
+}
+
+h1 {
+    padding: 50px;
+    color:rgb(116, 79, 0);
+}
+
+.image {
+   /* position: absolute; */
+   /* padding: 20px;
+  left: 400px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+
+}
+
+h3 {
+    display: absolute;
+    color: rgb(116, 79, 0);
+    
+}
+
+.contact-info{
+    background-color: rgb(255, 210, 126);
+}
+
+section {
+    border-top: solid 5px black;
+    
+    padding-top: 20px;
+}
+
+.button {
+    position: relative;
+    left: 44%;
+    height: 50px;
+    width: 70px;
+    font-size: large;
+    margin: 0 auto;
+}
+
+/* centering everything on page? */
+form {
+    margin: 0 auto;
+  width: 300px;
+  border: dashed 5px;  
+}
+
+footer {
+    border-top: solid 5px black;
+    background-color: rgb(2, 116, 106);
+    color: white;
+}
