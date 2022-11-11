@@ -44,40 +44,42 @@ nav li:hover {
     cursor:pointer;
 }
 
-
-
 /* Main Content */
-.flex{
-    display: flex;
-    flex-wrap: wrap;
+.side_title {
+    
+  text-align: center;
+    border-right: solid 2px;
+    padding: 50px;
+}
+
+aside {
+    flex:1;
     
 }
+
 
 .inline{
     display: inline-block;
 }
 
-.aboutme_title{
-    width: 30rem;
-    height: 100px;
-    display: inline-block;  
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
     
-    border-right: solid 2px;
 }
-.project_title{
-    width: 30rem;
-    height: 500px;
-    
-    border-right: solid 2px;
-}
+
+
 .container {
-    position: relative;
-    display: inline-block;
+    flex: 2 0 400px;
+    border: solid black 1px;
+    margin: 4px;
 }
 
 img {
     width: 200px;
     opacity: 30%;
+ 
 }
 img:hover {
     opacity: 100%;
