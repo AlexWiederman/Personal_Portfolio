@@ -40,6 +40,12 @@ nav li {
     margin-right: 30px;
 }
 
+nav li:hover {
+    cursor:pointer;
+}
+
+
+
 /* Main Content */
 .flex{
     display: flex;
@@ -73,6 +79,9 @@ img {
     width: 200px;
     opacity: 30%;
 }
+img:hover {
+    opacity: 100%;
+}
 
 .bottomleft {
     position: absolute;
@@ -91,4 +100,11 @@ img {
     justify-content: space-between;
 
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
 
