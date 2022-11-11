@@ -104,7 +104,9 @@ img:hover {
 @media screen and (max-width: 768px) {
     main,
     nav {
+        display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
     }
   }
 
