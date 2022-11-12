@@ -12,6 +12,15 @@
     --color4: rgb(235, 100, 64);
 }
 
+h1 {
+    font-size: 200%;
+
+}
+h2 {
+    font-size: 150%
+}
+
+
 /* Header Content */
 header {
     background-color: var(--color3);
