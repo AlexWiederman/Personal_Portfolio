@@ -62,9 +62,7 @@ nav li:hover {
 }
 
 /* Main Content */
-.leftside {
-    display: inline-block;
-}
+
 
 .flexstart {
     display: flex;
@@ -76,19 +74,21 @@ nav li:hover {
     flex: 1;
     text-align: center;
     padding: 30px 30px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .aboutmecontent {
     flex: 4;
-    display: inline-block;
+    padding: 10px;
+    border-bottom: solid 2px var(--color3);
+    /* display: inline-block; */
     
 }
 
 aside {
     flex:1;
     text-align: center;
-    border-right: solid 2px;
+    border-right: solid 2px var(--color3);
     padding: 60px;
 }
 
@@ -104,7 +104,7 @@ aside {
 }
 
 .container {
-    flex: 0 0 300px;
+    flex: 0 0 400px;
     border: solid black 1px;
     margin: 4px;
     padding: 10px;
@@ -135,6 +135,9 @@ footer {
     color: white;
    width: 100%;
    text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: right;
 }
 /* Centering list in footer */
 footer ul {
@@ -145,10 +148,10 @@ footer ul {
     
 }
 footer li{
-display: inline;
-margin: 0 auto;
-padding-left: 50px;
-padding-right: 50px;
+display: inline-block;
+padding: 0 10px;
+
+
 }
 
 
@@ -159,6 +162,9 @@ padding-right: 50px;
     aside {
         border-right: 0px;
         border-bottom: solid 2px;
+    }
+    .container {
+        /* min-width: 300px; */
     }
 
   }
