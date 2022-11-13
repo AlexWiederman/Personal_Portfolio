@@ -28,21 +28,26 @@ header {
     color: var(--color1);
     text-align: center;
 }
+header img {
+    width: 10%;
+    border-radius: 10%;
+    border: solid black;
+    min-width: 100px;
+}
 
 nav {
     flex-wrap: wrap;
     display: flex;
     background-color: var(--color3);
-    border-bottom: solid 10px;
-    border-color: var(--color1);
+    border-bottom: solid 5px;
     line-height: 40px;
-    color: var(--color1);
+    
     /* text-align: center; */
     justify-content: right;
-    
-
 }
-
+nav a {
+    color: var(--color1);
+}
 nav li {
     display: inline;
     text-decoration: none;
@@ -57,9 +62,27 @@ nav li:hover {
 }
 
 /* Main Content */
-main {
+.leftside {
+    display: inline-block;
+}
+
+.flexstart {
     display: flex;
     flex-wrap: wrap;
+  
+}
+
+.aboutmetitle {
+    flex: 1;
+    text-align: center;
+    padding: 30px 30px;
+    display: inline-block;
+}
+
+.aboutmecontent {
+    flex: 4;
+    display: inline-block;
+    
 }
 
 aside {
@@ -76,6 +99,7 @@ aside {
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
+   
     
 }
 
@@ -86,13 +110,14 @@ aside {
     padding: 10px;
 }
 
-img {
+main img {
     width: 100%;
     opacity: 30%;
 }
 
 img:hover {
     opacity: 100%;
+    cursor:pointer;
 }
 
 .bottomleft {
@@ -108,14 +133,13 @@ footer {
     border-top: solid 5px black;
     background-color: var(--color4);
     color: white;
-    height: 20 px;
    width: 100%;
    text-align: center;
 }
 /* Centering list in footer */
 footer ul {
     list-style: none;
-    margin: 2px auto;
+    margin: 10px auto;
     padding-left: 0px;
  
     
@@ -132,6 +156,11 @@ padding-right: 50px;
     main, nav {
       flex-direction: column;
     }
+    aside {
+        border-right: 0px;
+        border-bottom: solid 2px;
+    }
+
   }
   
 
