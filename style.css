@@ -12,6 +12,7 @@
     --color4: rgb(235, 100, 64);
 }
 
+/* Resizing header font size because of reset file */
 h1 {
     font-size: 200%;
 
@@ -28,7 +29,7 @@ h3 {
 
 /* Header Content */
 header {
-    background-image: url("/assets/Images/headerbanner.webp");
+    background-image: url("/headerbanner.webp");
     margin: 0;
     color: var(--color1);
     text-align: center;
