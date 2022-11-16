@@ -120,13 +120,14 @@ aside {
 
 }
 
+/* First Project is bigger */
 .container-big {
     flex: 0 0 600px;
     border: solid var(--color3) 5px;
     margin: 4px;
 
 }
-
+/* Rest of the projects are the same size */
 .container {
     flex: 0 0 300px;
     border: solid var(--color3) 5px;
@@ -151,8 +152,8 @@ aside {
 
 img:hover {
     opacity: 100%;  
-    
 }
+
 .container-big:hover, .container:hover{
     box-shadow: 10px 10px 10px gray;
 }
@@ -190,7 +191,7 @@ footer ul {
 }
 
 footer li {
-    /* display: inline-block; */
+   
     padding: 0 10px;
     display: inline-flex;
 }
@@ -202,6 +203,7 @@ footer a {
 
 @media screen and (max-width: 768px) {
 
+    /* Making containers stack once smaller */
     .flexstart,
     footer {
         flex-direction: column;
@@ -217,7 +219,7 @@ footer a {
         border-right: 0px;
         border-bottom: solid 2px var(--color3);
     }
-
+/* making containers smaller to fit better */
     .container-big {
         flex: 0 0 300px;
     }
@@ -232,6 +234,7 @@ footer a {
     }
 
     @media screen and (max-width: 300px) {
+        /* making containers smaller to fit better */
         .container-big {
             flex: 0 0 150px;
         }
